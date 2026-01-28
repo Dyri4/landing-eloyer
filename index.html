@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dmitry Eloyer">
+    <meta name="description" content="Портфолио веб-разработчика Dmitry Eloyer">
+    <meta name="keywords" content="веб-разработка,html,css,javascript,портфолио">
+    <title>Dmitry Eloyer - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>    
+<body>
+    <!-- Хедер с навигацией -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Eloyer</div>
+            <nav class="nav">
+                <a href="#about">Обо мне</a>
+                <a href="#stack">Стек</a>
+                <a href="#skills">Навыки</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главная секция -->
+    <section class="hero">
+        <div class="container">
+            <h1 title="Я нуб ебаный пока что">Я веб-разработчик</h1>
+            <p title="Приветик сладкий">Но пока что только начинающий, только встал на путь истинный</p>
+        </div>
+    </section>
+
+    <!-- Секция "Обо мне" -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p><b>Привет! Я начинающий веб-разработчик из Новосибирска, студент с энтузиазмом познать все про веб-разработку. Постоянно учусь и развиваюсь в этой сфере.</b></p>
+            <p><b>В будущем хочу на этом зарабатывать себе на еду.</b></p>
+        </div>
+    </section>
+
+    <!-- Секция "Мой стек" -->
+    <section id="stack" class="stack">
+        <div class="container">
+            <h2>Мой стек будет пополняться со временем</h2>
+            <div class="stack-grid">
+                <div class="stack-item">
+                    <h3>HTML</h3>
+                    <p>Процесс обучения</p>
+                </div>
+                <div class="stack-item">
+                    <h3>CSS</h3>
+                    <p>Процесс обучения</p>
+                </div>
+                <div class="stack-item">
+                    <h3>JavaScript</h3>
+                    <p>Процесс обучения</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Что я могу" -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Что я могу</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Секция контактов -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Давайте работать вместе!</h2>
+            <p>Связь со мной:</p>
+            <div class="contact-links">
+                <a href="mailto:pityapitav@gmail.com" class="button" onclick="
+                    navigator.clipboard.writeText('pityapitav@gmail.com'); 
+                    this.textContent='Скопировано!'; 
+                    setTimeout(()=>this.textContent='Email',1500); 
+                    return false;">
+                Email
+                </a>
+                <a href="https://t.me/dimonich0" target="_blank" class="button">Telegram</a>
+                <a href="https://github.com/Dyri4" target="_blank" class="button">GitHub</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
